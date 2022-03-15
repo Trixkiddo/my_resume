@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+}
+
+/* navbar */
+.menu {
+  display: flex;
+  justify-content: center;
+}
+#links {
+  display: flex;
+}
+.link {
+  list-style: none;
+  padding: 50px;
+}
+.link a {
+  text-decoration: none;
+  color: white;
+}
+
+/*name*/
+
+.names {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  color: white;
+}
