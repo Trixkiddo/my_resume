@@ -1,16 +1,18 @@
+/* general */
 body {
   background-color: black;
 }
-
 .container {
   display: flex;
-    justify-content: center;
+  justify-content: center;
 }
 
 /* navbar */
 .menu {
   display: flex;
   justify-content: center;
+  height: 100px;
+  background-color: rgba(53, 51, 51, 0.5);
 }
 #links {
   display: flex;
@@ -21,10 +23,10 @@ body {
 }
 .link a {
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
 }
 
-/*introduction*/
+/*INTRODUCTION*/
 .names {
   display: flex;
   flex-direction: column;
@@ -32,5 +34,34 @@ body {
 }
 
 .name {
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
 }
+
+#text-home {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.text-h {
+  color: white;
+  font-size: 1em;
+  margin: 10px;
+  text-align: center;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pic {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/*WEB*/
