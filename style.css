@@ -4,6 +4,7 @@ body {
 
 .container {
   display: flex;
+    justify-content: center;
 }
 
 /* navbar */
@@ -23,11 +24,11 @@ body {
   color: white;
 }
 
-/*name*/
-
+/*introduction*/
 .names {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .name {
