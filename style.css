@@ -101,5 +101,21 @@ body {
 .project {
   width: 300px;
   border-radius: 10px;
+  cursor: pointer;
+  transform: translate(10px, 10px);
+  filter: brightness(0.8); /*assombrir ou éclaircir*/
+}
 
+
+.project:hover {
+  transform: translateY(0.3px);
+  transition: 0.5s;
+  box-shadow: 0 0 20px rgba(199, 190, 190, 0.2);
+}
+
+.project-description {
+  color: white;
+  position: relative;
+  bottom: 100px;
+  left: 55px;
 }
