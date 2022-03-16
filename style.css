@@ -104,6 +104,7 @@ body {
   cursor: pointer;
   transform: translate(10px, 10px);
   filter: brightness(0.4); /*assombrir ou éclaircir*/
+
 }
 
 
@@ -113,13 +114,26 @@ body {
   box-shadow: 0 0 20px rgba(199, 190, 190, 0.2);
 }
 
+
 .project-description {
   color: white;
   position: relative;
   bottom: 140px;
-  left: 30px;
+  left: 25px;
   text-shadow: 3em;
   -webkit-text-stroke: 0.5px rgb(12, 12, 12); /*contours de texte*/
   font-weight: bolder;
   font-size: larger;
+}
+
+.project-description2 {
+  color: white;
+  position: relative;
+  bottom: 160px;
+  left: 10px;
+  text-shadow: 3em;
+  -webkit-text-stroke: 0.5px rgb(12, 12, 12); /*contours de texte*/
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
 }
