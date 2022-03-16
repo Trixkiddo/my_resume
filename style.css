@@ -99,11 +99,11 @@ body {
 }
 
 .project {
-  width: 300px;
-  border-radius: 10px;
+  width: 200px;
+  border-radius: 50%;
   cursor: pointer;
   transform: translate(10px, 10px);
-  filter: brightness(0.8); /*assombrir ou éclaircir*/
+  filter: brightness(0.4); /*assombrir ou éclaircir*/
 }
 
 
@@ -116,6 +116,10 @@ body {
 .project-description {
   color: white;
   position: relative;
-  bottom: 100px;
-  left: 55px;
+  bottom: 140px;
+  left: 30px;
+  text-shadow: 3em;
+  -webkit-text-stroke: 0.5px rgb(12, 12, 12); /*contours de texte*/
+  font-weight: bolder;
+  font-size: larger;
 }
