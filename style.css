@@ -96,6 +96,7 @@ body {
 .projects {
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
 }
 
 .project {
@@ -106,7 +107,6 @@ body {
   filter: brightness(0.4); /*assombrir ou éclaircir*/
 
 }
-
 
 .project:hover {
   transform: translateY(0.3px);
@@ -136,4 +136,11 @@ body {
   font-weight: bolder;
   font-size: larger;
   text-align: center;
+}
+
+/*ABOUT*/
+#pixelart {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
