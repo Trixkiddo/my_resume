@@ -118,7 +118,7 @@ body {
 .project-description {
   color: white;
   position: relative;
-  bottom: 140px;
+  bottom: 135px;
   left: 25px;
   text-shadow: 3em;
   -webkit-text-stroke: 0.5px rgb(12, 12, 12); /*contours de texte*/
@@ -129,7 +129,7 @@ body {
 .project-description2 {
   color: white;
   position: relative;
-  bottom: 160px;
+  bottom: 155px;
   left: 10px;
   text-shadow: 3em;
   -webkit-text-stroke: 0.5px rgb(12, 12, 12); /*contours de texte*/
