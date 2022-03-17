@@ -31,6 +31,10 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/*BOUTON ACCESS CONFIG*/
+#a42-ac button {
+  position: sticky;
+}
 
 /*INTRODUCTION*/
 .names {
@@ -50,7 +54,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 
 .text-h {
   color: white;
@@ -143,4 +146,6 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  margin-bottom: 5px;
+  filter: brightness(0.8);
 }
