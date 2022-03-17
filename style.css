@@ -166,6 +166,11 @@ button:hover {
 }
 
 /*TIMELINE*/
+
+.timeline-title {
+  margin-top: 85px;
+  margin-bottom: 60px;
+}
 .timeline {
   width: 300px;
   margin: auto;
