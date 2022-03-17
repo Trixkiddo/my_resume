@@ -186,7 +186,6 @@
 #a42-ac [type="reset"]::-moz-focus-inner,
 #a42-ac [type="submit"]::-moz-focus-inner {
 	border-style: none;
-	padding: 0;
 }
 
 #a42-ac button:-moz-focusring,
