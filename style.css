@@ -265,6 +265,14 @@ transform: rotate(20deg);
 .box1 {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  background-color: rgb(66, 61, 61);
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+
+.box1:hover {
+  transform: rotateY(180deg);
 }
 
 .box3 {
