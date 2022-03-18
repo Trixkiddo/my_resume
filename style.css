@@ -45,6 +45,9 @@ button {
   padding-left: 8px;
   cursor: pointer;
   font-weight: bold;
+  background-color: black;
+  color: white;
+  border: hidden;
 }
 
 button:hover {
@@ -167,6 +170,31 @@ button:hover {
 
 /*TIMELINE*/
 
+.simplon {
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.lewagon {
+width: 50px;
+border-radius: 50%;
+align-self: center;
+}
+
+.irts {
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.ugc {
+  width: 50px;
+  border-radius: 50%;
+  filter: brightness(2);
+  align-self: flex-end;
+}
+
 .timeline-title {
   margin-top: 85px;
   margin-bottom: 60px;
@@ -174,10 +202,13 @@ button:hover {
 .timeline {
   width: 300px;
   margin: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
 }
 .try {
   border-top: 2px dashed;
-  border-color: rgb(227, 227, 230) !important;
+  border-color: rgb(125, 125, 175) !important;
   margin:0; padding: 30px;
 }
 .try:nth-child(even) {
