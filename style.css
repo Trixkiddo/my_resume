@@ -179,20 +179,23 @@ button:hover {
 .lewagon {
 width: 50px;
 border-radius: 50%;
-align-self: center;
+align-self: flex-end;
+transform: rotate(20deg);
 }
 
 .irts {
   width: 50px;
   border-radius: 50%;
   background-color: white;
+  align-self: center;
 }
 
 .ugc {
   width: 50px;
   border-radius: 50%;
   filter: brightness(2);
-  align-self: flex-end;
+  align-self: flex-start;
+  transform: rotate(-40deg);
 }
 
 .timeline-title {
