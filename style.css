@@ -10,13 +10,13 @@ body {
 
 /* navbar */
 
-.navbar {
+#navbar {
   position: sticky;
   top: 0;
   background-color: rgba(53, 51, 51, 0.5);
 }
 
-.navbar .menu {
+#navbar .menu {
   height: 40px;
   display: flex;
 
@@ -30,11 +30,10 @@ body {
 
 #links {
   display: flex;
-  margin-top: 10px;
 }
 
-.navbar ul {
-  margin-top: 0;
+#navbar ul {
+  margin-top: 10px;
 }
 
 .link {
@@ -52,6 +51,7 @@ body {
 .link a:hover {
   text-decoration: underline rgb(241, 228, 228);
   text-decoration-thickness: 1.5px;
+  color:rgb(241, 228, 228) ;
 }
 
 /*BOUTON ACCESS CONFIG*/
@@ -227,7 +227,7 @@ transform: rotate(20deg);
   margin-top: 85px;
   margin-bottom: 60px;
 }
-.timeline {
+#timeline {
   width: 300px;
   margin: auto;
   color: white;
