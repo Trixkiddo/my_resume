@@ -36,6 +36,15 @@ body {
   margin-top: 10px;
 }
 
+.link-section {
+  height: 30px;
+}
+
+.link-section:hover {
+  border-bottom: 2px solid white;
+}
+
+
 .link {
   list-style: none;
 
@@ -49,10 +58,9 @@ body {
 }
 
 .link a:hover {
-  text-decoration: underline rgb(241, 228, 228);
-  text-decoration-thickness: 1.5px;
-  color:rgb(241, 228, 228) ;
+  color: white;
 }
+
 
 /*BOUTON ACCESS CONFIG*/
 #access-button {
