@@ -13,27 +13,45 @@ body {
 .navbar {
   position: sticky;
   top: 0;
+  background-color: rgba(53, 51, 51, 0.5);
+}
+
+.navbar .menu {
+  height: 40px;
+  display: flex;
+
 }
 
 .menu {
   display: flex;
   justify-content: center;
-  height: 100px;
-  background-color: rgba(53, 51, 51, 0.5);
+  margin-top: -8px;
 }
 
 #links {
   display: flex;
+  margin-top: 10px;
+}
+
+.navbar ul {
+  margin-top: 0;
 }
 
 .link {
   list-style: none;
-  padding: 50px;
+
 }
 
 .link a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.link a:hover {
+  text-decoration: underline rgb(241, 228, 228);
+  text-decoration-thickness: 1.5px;
 }
 
 /*BOUTON ACCESS CONFIG*/
@@ -43,7 +61,7 @@ body {
   margin-top: 10px;
   margin-right: 10px;
   position: sticky;
-  top: 110px;
+  top: 50px;
 }
 
 button {
