@@ -10,6 +10,11 @@ body {
 
 /* navbar */
 
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
 .menu {
   display: flex;
   justify-content: center;
@@ -37,6 +42,8 @@ body {
   justify-content: flex-end;
   margin-top: 10px;
   margin-right: 10px;
+  position: sticky;
+  top: 110px;
 }
 
 button {
@@ -265,7 +272,6 @@ transform: rotate(20deg);
 .box1 {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: rgb(66, 61, 61);
   transition: transform 0.5s;
   transform-style: preserve-3d;
 }
@@ -275,6 +281,18 @@ transform: rotate(20deg);
   transform: rotateY(180deg);
 }
 
+.boxfront, .boxback {
+  backface-visibility: hidden;
+}
+
+.boxfront {
+  background-color: blueviolet;
+}
+
+.boxback {
+  background-color: red;
+  transform: rotateY(180deg);
+}
 .box3 {
   border-top-right-radius: 20px;
 }
