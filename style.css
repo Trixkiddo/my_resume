@@ -17,12 +17,18 @@ body {
   flex-direction: column;
 }
 
+.web-title, .about-title, .timeline-title {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
 /* navbar */
 
 #navbar {
   position: sticky;
   top: 0;
   background-color: rgba(53, 51, 51, 0.5);
+  font-family: 'Source Code Pro', monospace;
 }
 
 #navbar .menu {
@@ -90,6 +96,7 @@ button {
   background-color: black;
   color: white;
   border: hidden;
+  font-family: 'Source Code Pro', monospace;
 }
 
 button:hover {
@@ -102,14 +109,12 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .name {
   color: rgba(255, 255, 255, 0.9);
   letter-spacing: 0.5em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: lighter;
+  font-family: 'Source Code Pro', monospace;
 }
 
 #text-home {
@@ -121,12 +126,13 @@ button:hover {
   color: white;
   font-size: 1em;
   margin: 10px;
-  text-align: center;
+  align-self: center;
+  font-family: "Montserrat", sans-serif;
 }
-
 .picture {
   display: flex;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .pic {
@@ -163,6 +169,7 @@ button:hover {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
+
 }
 
 .projects a {
@@ -178,8 +185,6 @@ button:hover {
 }
 
 .project:hover {
-  transform: translateY(0.3px);
-  transition: 0.5s;
   box-shadow: 0 0 20px rgba(199, 190, 190, 0.2);
 }
 
@@ -198,17 +203,31 @@ button:hover {
 #pixelart {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 5px;
   filter: brightness(0.8);
 }
 
+.textabout {
+  color: white;
+  width: 300px;
+  line-height: 2;
+  font-family: "Montserrat", sans-serif;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /*TIMELINE*/
 
 .simplon {
   width: 50px;
   background-color: white;
   border-radius: 50%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .lewagon {
@@ -216,6 +235,7 @@ width: 50px;
 border-radius: 50%;
 align-self: flex-end;
 transform: rotate(20deg);
+font-family: "Montserrat", sans-serif;
 }
 
 .irts {
@@ -223,6 +243,7 @@ transform: rotate(20deg);
   border-radius: 50%;
   background-color: white;
   align-self: center;
+
 }
 
 .ugc {
@@ -243,6 +264,8 @@ transform: rotate(20deg);
   color: white;
   display: flex;
   flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 .try {
   border-top: 2px dashed;
@@ -294,7 +317,8 @@ transform: rotate(20deg);
 
 .box1, .box2, .box3 {
   padding: 40px;
-  width: 200px;
+  width: 250px;
+  height: 200px;
 }
 
 .box1 {
@@ -310,14 +334,18 @@ transform: rotate(20deg);
 }
 
 .boxfront, .boxback {
-  backface-visibility: hidden;
+backface-visibility: hidden;
 }
 
-.boxfront {
-  background-color: blueviolet;
+.boxfront img {
+  width: 250px;
+  border-radius: 5px;
 }
 
 .boxback {
+  width: 250px;
+  height: 170px;
+  border: 2px solid blue;
   background-color: red;
   transform: rotateY(180deg);
 }

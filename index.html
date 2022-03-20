@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Montserrat:wght@100&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="accessconfig/css/accessconfig.min.css"
@@ -36,7 +39,7 @@
     <!--ACCESSIBILITE-->
     <div id="access-button">
       <div
-        id="accessconfig"
+        id="accessconfig" onclick="click()"
         data-accessconfig-buttonname="👁️ Accessibilité"
         data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}'
       ></div>
@@ -56,7 +59,7 @@
         <div id="text-home">
           <p class="text-h">Développeuse front-end junior. </p>
           <p class="text-h"> Fin 2021, j'entre au Wagon afin de me reconvertir.</p>
-          <p class="text-h">En 2022, je décide de me lancer dans le module de spécialisation Front-end de Simplon.</p>
+          <p class="text-h">En 2022, je décide de me lancer dans le module de spécialisation front-end de Simplon.</p>
         </div>
       </section>
       <!--SECTION WEB-->
@@ -108,10 +111,12 @@
           <img src="ecuzoavj.png" alt="Flavie et un arbre en pixel art" />
         </div>
         <div id="text-home">
-          <p class="text-h">efnefjnzefinzeiofneiofiefznfefzn</p>
-          <p class="text-h">efnefjnzefinzeiofneiofiefznfefzn</p>
-          <p class="text-h">efnefjnzefinzeiofneiofiefznfefzn</p>
-          <p class="text-h">efnefjnzefinzeiofneiofiefznfefzn</p>
+          <p class="textabout">
+            Educatrice de formation, je travaillais avec des personnes en situation de handicap et étais spécialisée dans
+            les TSA (Troubles du Spectre Autistiques). Curieuse d'apprendre un nouveau métier, je décide en 2021 de changer de voie pour
+            la tech. J'espère à terme pouvoir lier mes compétences en développant, pourquoi pas, une solution pour faciliter
+            l'accompagnement dans le médico-social ou dans un autre domaine qui me tient à coeur comme l'accès à la culture, ou encore l'environnement.
+          </p>
         </div>
       </section>
       <!--TIMELINE-->
@@ -121,9 +126,9 @@
           <p class="title-bar">_______________________________</p>
         </div>
       <img src="7Fo9uFE_400x400.svg" alt="logo de l'école Simplon" class="simplon">
-      <p class="try">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, iste iusto quas eligendi corporis id eius corrupti temporibus velit? Molestias harum voluptatibus veritatis explicabo ut velit deserunt, saepe sit commodi?</p>
+      <p class="try">Mars-mai 2022<br><br>Module de spécialisation front-end (JS/REACT) à l'école Simplon de Roubaix. 6 semaines basées sur la pédagogie active, suivies de 5 semaines de stage.</p>
       <img src="wagon.png" alt="logo de l'école Le Wagon" class="lewagon">
-      <p class="try">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, iste iusto quas eligendi corporis id eius corrupti temporibus velit? Molestias harum voluptatibus veritatis explicabo ut velit deserunt, saepe sit commodi?</p>
+      <p class="try">Octobre-décembre 2021<br><br>Bootcamp Le Wagon Lille. Formation intensive avec apprentissage notamment de Ruby on Rails, JS (ES6). Certification obtenue.</p>
       <img src="IRTS.svg" alt="logo de l'IRTS" class="irts">
       <p class="try">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, iste iusto quas eligendi corporis id eius corrupti temporibus velit? Molestias harum voluptatibus veritatis explicabo ut velit deserunt, saepe sit commodi?</p>
       <img src="ugc.png" alt="logo des cinémas UGC" class="ugc">
@@ -134,14 +139,14 @@
     <div class="timeline2">
       <div class="box1">
         <div class="boxfront">
-
+          <img src="VIGNETTE_SIMPLON.png" alt="Ecole Simplon">
         </div>
         <div class="boxback">
-
+          <p>Mars-mai 2022</p>
+          <p>Module de spécialisation front-end (JS/REACT).
+            Formation basée sur la pédagogie active.
+          </p>
         </div>
-        <p class="detailtext">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae accusantium perferendis in, architecto non rem necessitatibus voluptate, aliquid repellat quisquam excepturi velit dignissimos soluta cum eveniet maiores, quo assumenda facere?
-        </p>
       </div>
       <div class="box2">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum deserunt porro sit dolorem ad expedita optio error culpa, dignissimos eos! Reiciendis veniam exercitationem laborum. Repellat accusamus sunt dolores incidunt iusto.
@@ -168,5 +173,10 @@
       src="accessconfig/js/accessconfig.min.js"
       type="text/javascript"
     ></script>
+    <script
+    src="script.js">
+    type="text/javascript"
+
+    </script>
   </body>
 </html>
