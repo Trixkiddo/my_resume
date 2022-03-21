@@ -570,7 +570,7 @@ button:hover {
 /*TIMELINE ANIMEE*/
 .box {
   padding: 2rem;
-  padding-bottom: 400px;
+  padding-bottom: 20px;
   margin: 0 auto;
   max-width: 800px;
 }
@@ -591,6 +591,7 @@ button:hover {
   position: absolute;
   z-index: 2;
   left: calc(50% - 1px);
+  /*calc prend comme argument une expression mathématique*/
   width: 2px;
   top: -50px;
   bottom: -50px;
