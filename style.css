@@ -5,7 +5,20 @@
   .projects {
     flex-direction: column;
     align-items: center;}
+
+  .skills {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills img {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+
+
 }
+
+
 
 /* general */
 body {
@@ -112,21 +125,26 @@ button:hover {
 }
 
 .name {
-  color: rgba(255, 255, 255, 0.9);
-  letter-spacing: 0.5em;
+  color: white;
+  line-height: 2;
   font-family: 'Source Code Pro', monospace;
+  letter-spacing: 0.5em;
 }
 
-#text-home {
+#introduction {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+#text-home {
+  width: 300px;
+  text-align: center;
 }
 
 .text-h {
   color: white;
   font-size: 1em;
   margin: 10px;
-  align-self: center;
   font-family: "Montserrat", sans-serif;
 }
 .picture {
@@ -151,8 +169,8 @@ button:hover {
 .skills img {
   width: 40px;
   height: 40px;
-   padding-left: 10px;
-   padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .github {
@@ -313,7 +331,7 @@ font-family: "Montserrat", sans-serif;
   border-bottom-left-radius:0;
 }
 
-
+/* essai timeline 2
 .timeline2{
   display: flex;
   flex-direction: column;
@@ -368,4 +386,4 @@ backface-visibility: hidden;
 }
 .box3 {
   border-top-right-radius: 20px;
-}
+} */
