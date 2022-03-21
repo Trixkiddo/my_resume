@@ -1,0 +1,30 @@
+/* FORM */
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: #F3CA40;
+}
+
+
+#button2 {
+  padding: 10px;
+  background: #F08A4B;
+  outline: none;
+  appearance: none;
+  border: 1px solid #F2A541;
+  color: #fff;
+}
+
+#button2:hover {
+  background-color: white;
+}
+
+#response {
+  margin-top: 50px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}

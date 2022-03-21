@@ -682,6 +682,47 @@ backface-visibility: hidden;
   color: white;
 }
 
+/* FORM */
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background: #F3CA40;
+}
+
+#button2 {
+  padding: 10px;
+  background: #F08A4B;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #F2A541;
+  color: #fff;
+}
+
+#button2:hover {
+  background-color: white;
+}
+
+#response {
+  margin-top: 50px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
 /*media queries*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -894,6 +935,9 @@ body {
 .project:hover {
   -webkit-box-shadow: 0 0 20px rgba(240, 234, 234, 0.2);
           box-shadow: 0 0 20px rgba(240, 234, 234, 0.2);
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+  /*assombrir ou éclaircir*/
 }
 
 .project-description {

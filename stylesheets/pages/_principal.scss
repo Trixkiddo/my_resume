@@ -81,7 +81,6 @@ body {
 
 }
 
-
 .skillrow1, .skillrow2, .skillrow3 {
   display: flex;
   flex-direction: column;
@@ -150,6 +149,7 @@ body {
 
 .project:hover {
   box-shadow: 0 0 20px rgba(240, 234, 234, 0.2);
+  filter: brightness(1); /*assombrir ou éclaircir*/
 }
 
 .project-description {
@@ -160,6 +160,7 @@ body {
   text-shadow: 3em;
   -webkit-text-stroke: 0.5px rgb(12, 12, 12); /*contours de texte*/
   font-weight: bolder;
+
 }
 
 /*ABOUT*/
