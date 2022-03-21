@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+/*BOUTON ACCESS CONFIG*/
+#access-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 10px;
+  position: sticky;
+  top: 50px;
+}
+
+button {
+  padding: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border: hidden;
+  font-family: 'Source Code Pro', monospace;
+}
+
+button:hover {
+  color: rgb(247, 243, 7);
+  background-color: rgb(19, 10, 104);
+}

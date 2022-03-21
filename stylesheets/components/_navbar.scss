@@ -1,0 +1,53 @@
+/* navbar */
+
+#navbar {
+  position: sticky;
+  top: 0;
+  background-color: rgba(53, 51, 51, 0.5);
+  font-family: 'Source Code Pro', monospace;
+}
+
+#navbar .menu {
+  height: 40px;
+  display: flex;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-top: -8px;
+}
+
+#links {
+  display: flex;
+}
+
+#navbar ul {
+  margin-top: 10px;
+}
+
+.link-section {
+  height: 30px;
+}
+
+.link-section:hover {
+  border-bottom: 2px solid white;
+}
+
+
+.link {
+  list-style: none;
+
+}
+
+.link a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.link a:hover {
+  color: white;
+}
